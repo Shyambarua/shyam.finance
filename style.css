@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+html,body{
+    background: url(assets/bg.png);
+}
+section{
+    width: 100vw;
+}
+/* Header Section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header .logo{
+    display: flex;
+    margin: 2rem;
+}
+.header .logo img{
+    width: 3.5rem;
+    height: 3rem;
+    
+}
+.header .logo h2{
+    display: flex;
+    color: white;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.header .btn{
+    display: flex;
+    margin: 1.5rem;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c1e2f;
+    color: white;
+    border-radius: .8rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* home section */
+
+.hero h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 5000;
+}
+.hero h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsla(0,0%,100%,.8);
+    font-size: 1.5rem;
+    text-align-last: center;
+    margin: 2rem 15rem;
+    font-weight: 1000;
+}
+.latest-summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 10rem;
+
+}
+
+.latest-summary .assetmanage{
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius:12px ;
+    background: rgba(57,108,153,.4);
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.latest-summary .assetmanage .detail{
+    margin-left: 2rem;
+}
+.latest-summary .rewardmanage{
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius:12px ;
+    background: rgba(57,108,153,.4);
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+.latest-summary .rewardmanage .detail{
+    margin-left: 2rem;
+}
+
+/* Side Section */
+
+.side{
+    background: #091927;
+    border-radius: 1.2rem;
+    height: 100%;
+    /* width: 100%; */
+    margin: 8rem;
+    padding: 2rem;
+}
+.side h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+.side h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(152, 145, 145);
+    margin: 2rem;
+    font-size: 1.7rem;
+    text-align-last: center;
+}
+.side-type{
+    display: flex;
+    gap: 2rem;
+    
+}
+.side-type h2{
+    color: white;
+    font-size: 1.5rem;
+}
+.side-type .para{
+    color: white;
+
+}
+
+.first{
+    border: none;
+    padding:1rem;
+    background: #13293c;
+    border-radius: 8px;
+    width: 100%;
+}
+ .first-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-top .button1{
+    display: flex;
+    gap: 1rem;
+}
+.button1 .btn1{
+    background: none;
+    color: hsla(0,0%,100%,.8);
+    border-radius: 12px;
+    padding: .4rem;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.para h4{
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.para .btn2-1{
+    display: flex;
+    border: none;
+    background: #417cd5;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    /* margin: 1rem; */
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.second{
+    border: none;
+    padding:1rem;
+    background: #13293c;
+    border-radius: 8px;
+    width: 100%;
+}
+.second .btn2{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+
+/* Capital Table section */
+.capital-head h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+}
+.capital-head h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 4.4rem;
+    color: hsla(0,0%,100%,.8);
+    font-size: 1.8rem;
+    text-align-last: center;
+}
+
+/* table for both section capital & strategy*/
+.table2{
+    display: flex;
+    justify-content: center;
+    color: hsla(0, 0%, 100%, 0.503);
+    margin-top: 5rem;
+}
+
+.table2 tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid hsla(0,0%,100%,0.503);
+    padding: 0 1rem;
+}
+.table2 th{
+    text-align: left;
+    padding: 1rem 0;
+    width: 14rem;
+    font-size: 1.5rem;
+}
+.row2-2{
+    color: white;
+}
+.btn3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    border: none;
+    background: #417cd5;
+    color: white;
+    padding:.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.row2-3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+}
+.table2 a{
+    color: #5699ff;
+    cursor: pointer;
+}
+
+.btn2{
+    border: none;
+    background: #417cd5;
+    color: white;
+    padding:.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+/* strategy */
+.strategy{
+    height:60vh;
+    margin: 5rem 0;
+    
+}
+.strategy h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 8rem;
+}
+.strategy h3{
+    display: flex;
+    justify-content: center;
+    color: hsla(0,0%,100%,.8);
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
+
+
+
+
+
+/* Footer Section */
+
+.footer{
+    background: #203447;
+    height: 15rem;
+    width: 100vw;
+}
+.footer .logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem ;
+}
+.footer .logo1 img{
+    width: 4rem;
+}
+.footer .logo1 h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 5000;
+}
+.footer .social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 20rem;
+}
+
+
+
+
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    color: #5699ff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    /* width: 120px; */
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+    top: 100%;
+    left: -20%;
+    margin-left: -50px;
+    font-size: 1rem;
+    
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

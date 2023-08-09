@@ -1,0 +1,134 @@
+@media only screen and (max-device-width: 750px){
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        scroll-behavior: smooth;
+        font-size: 100%;
+      }
+      
+      section{
+        width: 100%;
+      }
+      .header{
+        /* border: 2px solid red; */
+        width:200vw ;
+      }
+
+      .header .btn{
+        top: 40%;
+        right: 0;
+
+      }
+      /* home section */
+      .hero{
+        width:150vw;
+        /* border: 2px solid red; */
+        margin:0 30% ;
+       
+      }
+      .hero h1{
+        margin-top:20rem;
+        padding:0 ;
+        display: flex;
+        text-align:center;
+
+        font-size: 4rem;
+        /* border: 2px solid red; */
+        width: 100%;
+      }
+      .hero h3{
+        margin:2rem 0;
+        padding:0 ;
+        display: flex;
+        text-align: justify;
+        font-size: 2rem;
+      }
+
+      .latest-summary{
+        display: inline-block;
+        width: 100vw;
+        margin-left:50% ;
+        
+      }
+      .latest-summary .assetmanage{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+      .latest-summary .rewardmanage{
+        font-size: 3rem;
+      }
+    
+      .side{
+        width: 100vw;
+        margin-left:50% ;
+      }
+      .side-type{
+        display: inline-block;
+       
+        
+      }
+      .side-type .first{
+        margin-bottom: 2rem;
+        
+      }
+      .capital{
+        
+        margin-left:50% ;
+      }
+
+      .capital-head h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+        width: 116%;
+        margin: 0;
+        text-align: center;
+        
+        
+      }
+      .capital-head h3{
+        width: 100%;
+      }
+      .strategy{
+        margin-left:50% ;
+      }
+      .strategy h1{
+        font-size: 2rem;
+        /* border: 2px solid red; */
+        width: 100%;
+      
+      }
+      .strategy h3{
+        font-size: 1.5rem;
+        /* border: 2px solid red; */
+        width: 100%;
+       
+        margin-top: 1rem;
+      }
+
+      .strategy .table2{
+        margin-bottom: 5rem;
+      }
+
+
+
+
+      .footer{
+        width: 200vw;
+        
+        
+      }
+      .footer .social{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        margin: 2rem 20rem;
+    }
+
+}
